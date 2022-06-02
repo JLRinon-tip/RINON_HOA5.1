@@ -1,0 +1,7 @@
+---
+- name: Installing docker for ubuntu
+  hosts: ubuntu
+  roles:
+    - ubuntu-docker
+    - ubuntu-userd
+    - ubuntu-webdb
